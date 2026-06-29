@@ -1,22 +1,115 @@
- HEAD
-## Getting Started
+# 🧮 Simple Java Calculator
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+A desktop calculator application built with Java Swing featuring a clean dark-themed interface and basic arithmetic operations.
 
-## Folder Structure
+![Java](https://img.shields.io/badge/Java-007396?style=flat&logo=openjdk&logoColor=white)
+![Swing](https://img.shields.io/badge/GUI-Java%20Swing-blue)
+![License](https://img.shields.io/badge/license-MIT-green)
 
-The workspace contains two folders by default, where:
+## 🎯 Purpose
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+This project was built to practice:
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+- Java Swing
+- Event-driven programming
+- Object-oriented programming
+- Git and GitHub workflows
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+## 📸 Preview
 
-## Dependency Management
+Add a screenshot of your calculator here:
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+```text
+screenshot.png
+```
 
-# simple-java-calculator
- aaee319580c79b9c8f24b6c71279248df3db9fa6
+```md
+![Calculator](screenshot.png)
+```
+
+## ✨ Features
+
+- ➕ ➖ ✖️ ➗ Basic arithmetic operations
+- ± Toggle sign (positive/negative)
+- % Percentage conversion
+- AC button to clear and reset the calculator
+- Decimal point support
+- Automatically removes unnecessary decimals (e.g. `4.0` → `4`)
+- Dark-themed interface with color-coded buttons
+
+## 🛠️ Tech Stack
+
+- Language: Java
+- GUI Library: Java Swing (`javax.swing`, `java.awt`)
+
+## 📂 Project Structure
+
+```text
+.
+├── Calculator.java
+├── README.md
+└── screenshot.png
+```
+
+## 🚀 Getting Started
+
+### Clone the repository
+
+```bash
+git clone https://github.com/DerbaliAdem/simple-java-calculator.git
+cd simple-java-calculator
+```
+
+### Compile
+
+```bash
+javac Calculator.java
+```
+
+### Run
+
+```bash
+java Main
+```
+
+## 🎮 Usage
+
+| Button | Action |
+|--------|--------|
+| `0-9` | Input numbers |
+| `.` | Add decimal point |
+| `+ - × ÷` | Arithmetic operators |
+| `=` | Calculate result |
+| `+/-` | Toggle sign |
+| `%` | Convert to percentage |
+| `AC` | Clear calculator |
+
+## ⚠️ Known Limitations
+
+- `√` button is displayed but not yet implemented.
+- Chained operations are not fully supported.
+- No keyboard input support yet.
+
+## 🗺️ Roadmap
+
+- [ ] Implement square root functionality
+- [ ] Support chained operations
+- [ ] Add keyboard input support
+- [ ] Add unit tests
+- [ ] Package as an executable `.jar`
+
+## 🤝 Contributing
+
+Contributions are welcome!
+
+1. Fork the repository
+2. Create a branch
+3. Commit your changes
+4. Push to GitHub
+5. Open a Pull Request
+
+## 👤 Author
+
+Made with ☕ and Java by **Adem Derbali**
+
+- GitHub: https://github.com/DerbaliAdem
