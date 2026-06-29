@@ -17,15 +17,10 @@ This project was built to practice:
 
 ## 📸 Preview
 
-Add a screenshot of your calculator here:
-
-```text
-screenshot.png
-```
-
 ```md
+## 📸 Preview
+
 ![Calculator](screenshot.png)
-```
 
 ## ✨ Features
 
